@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Tiwari | Portfolio</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>VT</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-container" id="particles-js"></div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <div class="hero-badge">
+                    <span>👋 Welcome to my Portfolio</span>
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight typed-text">Vaibhav Tiwari</span></h1>
+                <p class="hero-subtitle">BCA Student & <span class="text-rotate" data-rotate='["Web Developer", "Problem Solver", "Tech Enthusiast"]'></span></p>
+                <p class="hero-description">Passionate about creating digital solutions and continuously learning new technologies. Seeking opportunities to grow professionally and contribute to innovative projects.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Get In Touch
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/vaibhav-tiwari-b834552c47" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:vaibhavtiwari005@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919670660006" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="floating-card">
+                    <div class="image-container">
+                        <div class="main-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class floating-elements>
+                            <div class="floating-element element-1">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-element element-2">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="floating-element element-3">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="floating-element element-4">
+                                <i class="fab fa-python"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-main">
+                        <p>I'm a passionate BCA student at RML Avadh University with a strong foundation in computer science and programming. I'm dedicated to continuous learning and professional growth in the tech industry.</p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="10">0</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="5">0</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="2">0</div>
+                                <div class="stat-label">Years Learning</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="personal-traits">
+                        <h3>Personal Traits</h3>
+                        <div class="traits-grid">
+                            <div class="trait-card" data-aos="zoom-in">
+                                <div class="trait-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <h4>Honest & Punctual</h4>
+                                <p>Committed to deadlines and transparent communication</p>
+                            </div>
+                            <div class="trait-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="trait-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h4>Hard & Smart Working</h4>
+                                <p>Efficient problem-solving with dedicated effort</p>
+                            </div>
+                            <div class="trait-card" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="trait-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <h4>Problem Solver</h4>
+                                <p>Analytical thinking for effective solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-details" data-aos="fade-left">
+                    <div class="detail-card">
+                        <h3>Personal Details</h3>
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>Father's Name</strong>
+                                <span>Girish Chandra Tiwari</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <div>
+                                <strong>Date of Birth</strong>
+                                <span>1st January, 2005</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <span>Soni Harlal, Gonda 271002</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <strong>Marital Status</strong>
+                                <span>Unmarried</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+            
+            <div class="skills-category" data-aos="fade-up">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-aos="fade-right">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-category">Core Programming</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="80"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="fade-right" data-aos-delay="100">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">DSA</span>
+                                <span class="skill-category">Data Structures</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="fade-right" data-aos-delay="200">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-category">Web Development</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="fade-left">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-category">Core Programming</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="fade-left" data-aos-delay="100">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-copyright"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-category">Programming</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-category">Web Development</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="65"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-showcase">
+                <div class="soft-skills" data-aos="fade-up">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hobbies-section" data-aos="fade-up">
+                    <h3>Sports & Hobbies</h3>
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <div class="hobby-icon">
+                                <i class="fas fa-cricket"></i>
+                            </div>
+                            <span>Cricket</span>
+                        </div>
+                        <div class="hobby-item">
+                            <div class="hobby-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <span>Mentorship</span>
+                        </div>
+                        <div class="hobby-item">
+                            <div class="hobby-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <span>Music</span>
+                        </div>
+                        <div class="hobby-item">
+                            <div class="hobby-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <span>Reading</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-left">
+                    <!-- <div class="project-image"> -->
+                        <img src="media/image1.jpg" alt="personal portfolio" class="project-image">
+                        <!-- <i class="fas fa-laptop-code"></i> -->
+                    <!-- </div> -->
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive personal portfolio website with modern design and interactive elements.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <!-- <div class="project-image"> -->
+                        <img src="media/image2.jpg" alt="python applications" class="project-image">
+                        <!-- <i class="fas fa-calculator"></i> -->
+                    <!-- </div> -->
+                    <div class="project-content">
+                        <h3>Python Applications</h3>
+                        <p>Various Python projects including calculator, games, and utility tools.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <!-- <div class="project-image"> -->
+                        <img src="media/image3.jpg" alt="student management system" class="project-image">
+                        <!-- <i class="fas fa-database"></i> -->
+                    <!-- </div> -->
+                    <div class="project-content">
+                        <h3>Student Management</h3>
+                        <p>Database management system for student records and academic data.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>12th Standard</h3>
+                        <p>Swami Vivukamanda Inter College</p>
+                        <span class="timeline-duration">Completed</span>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-date">Pursuing</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>Bachelor of Computer Application</h3>
+                        <p>RML Avadh University, Ayodhya</p>
+                        <span class="timeline-duration">Currently Enrolled</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities and interesting projects.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 967066006</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>vaibhavtiwari005@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Soni Harlal, Gonda 271002, UP, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/vaibhav-tiwari-b834552c47" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Updated Contact Form -->
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                            <div class="form-error" id="name-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                            <div class="form-error" id="email-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required placeholder=" ">
+                            <label for="subject">Subject</label>
+                            <div class="form-error" id="subject-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-error" id="message-error"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                        
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h3>Vaibhav Tiwari</h3>
+                    <p>BCA Student & Aspiring Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/vaibhav-tiwari-b834552c47" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:vaibhavtiwari005@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919670660006">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vaibhav Tiwari. All Rights Reserved.</p>
+                <div class="declaration">
+                    <p>I hereby declare that the information provided is true and accurate to the best of my knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>
